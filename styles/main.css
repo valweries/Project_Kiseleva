@@ -1,0 +1,194 @@
+/* Стили для центральной части сайта */
+.main__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.main__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.main__button{
+    background-color: #02897A;
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 53px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    /* делаем красивую кнопку */
+    padding: 5px;
+    border-radius: 5px;
+}
+.motivation__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.motivation__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 22px;
+    line-height: 33px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;  
+}
+.management__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none; 
+}
+.management__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.support__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.support__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.collaboration__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.collaboration__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 34px;
+    line-height: 51px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__name{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__money{
+    background-color: white;
+    color: #02897A;
+    font-family: "Poppins";
+    font-size: 30px;
+    line-height: 100px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__button{
+    background-color: #02897A;
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 53px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    /* делаем красивую кнопку */
+    padding: 5px;
+    border-radius: 5px;
+}

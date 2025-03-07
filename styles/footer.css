@@ -1,0 +1,29 @@
+/* Стили для подвала сайта */
+.footer__creator{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.footer__documents{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.footer__documents a{
+    text-decoration: none;
+    color: black;
+}

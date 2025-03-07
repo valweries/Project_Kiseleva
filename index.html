@@ -1,20 +1,124 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт студии творчества</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <header>
-        Шапка сайта
+    <header class="header">
+        <img class="header__logo" src="images/logo.png" alt="Логотип" width="150" height="150">
+        <h1 class="header__title site-title">Онлайн-школа</h1>
+        <nav class="header__menu">
+            <ul class="menu">
+                <li class="menu__item"><a href="#">Курсы</a></li>
+                <li class="menu__item"><a href="#">Цена</a></li>
+                <li class="menu__item"><a href="#">Отзывы покупателей</a></li>
+                <li class="menu__item"><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <a class="header__login" href="#login">Вход</a>  
     </header>
-    <main>
-        Основная информация
+    <main class="main">        
+        <section class="main__title">
+            <div class="main__card">
+                <h2 class="main__head">Работай со своим воображением</h2>
+                <p class="main__desc">Учебные пособия и эксперты по дизайну находятся в одном месте!</p>
+                <a class="main__button" href="#">Начать</a>
+            </div>
+        </section>
+        <section class="motivation">
+            <h2 class="motivation__head">Продукт был создан специально для вас</h2>
+            <ul class="motivation__title">
+                <li class="motivation__card">
+                    <img class="motivation__image" src="images/icon-1.svg" alt="Стрелка" width="50" height="50">
+                    <p class="motivation__desc">Твори с первым кликом мыши</p>
+                </li>
+                <li class="motivation__card">
+                    <img class="motivation__image" src="images/icon-2.svg" alt="Путь" width="50" height="50">
+                    <p class="motivation__desc">Найди свой творческий путь</p>
+                </li>
+                <li class="motivation__card">
+                    <img class="motivation__image" src="images/icon-3.svg" alt="Сердце" width="50" height="50">
+                    <p class="motivation__desc">Живи творчеством</p>
+                </li>
+                <li class="motivation__card">
+                    <img class="motivation__image" src="images/icon-4.svg" alt="Часы" width="50" height="50">
+                    <p class="motivation__desc">Время творить!</p>
+                </li>
+            </ul>
+        </section>
+        <section class="management">
+            <div class="management__title">
+                <h3 class="management__head">Управление</h3>
+                <p class="management__desc">Сохраним все материалы для вас</p>
+                <img class="management__image" src="images/management-img.png" alt="Менеджмент" width="150" height="150">
+            </div>
+        </section>
+        <section class="support">
+            <div class="support__title">
+                <h3 class="support__head">Служба поддержки</h3>
+                <p class="support__desc">Готовы помочь вам в любое время</p>
+                <img class="support__image" src="images/support-img.png" alt="Поддержка" width="150" height="150">
+            </div>
+        </section>
+        <section class="collaboration">
+            <div class="collaboration__title">
+                <h3 class="collaboration__head">Всё в одном месте</h3>
+                <p class="collaboration__desc">Все нужные вам материалы в одном месте</p>
+                <img class="collaboration__image" src="images/collaboration-img.png" alt="Совместный" width="150" height="150">
+            </div>
+        </section>
+        <section class="products">
+            <div class="products__title">
+                <h3 class="products__head">Цена</h3>
+                <ul class="products__price">
+                    <li class="products__card">
+                        <h4 class="products__name">Бесплатный уровень</h4>
+                        <p class="products__money">0 рублей в месяц</p>
+                        <p class="products__desc">Доступ к бесплатным материалам</p>
+                        <button class="products__button">Записаться</button>
+                    </li>
+                    <li class="products__card">
+                        <h4 class="products__name">Средний уровень</h4>
+                        <p class="products__money">500 рублей в месяц</p>
+                        <p class="products__desc">Доступ к бесплатным материалам</p>
+                        <p class="products__desc">Доступ к платным видеоурокам</p>
+                        <button class="products__button">Записаться</button>
+                    </li>
+                    <li class="products__card">
+                        <h4 class="products__name">Максимальный уровень</h4>
+                        <p class="products__money">1000 рублей в месяц</p>
+                        <p class="products__desc">Доступ к бесплатным материалам</p>
+                        <p class="products__desc">Доступ к платным видеоурокам</p>
+                        <p class="products__desc">Поддержка учителя</p>
+                        <button class="products__button">Записаться</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer>
-        подвал
+    <footer  class="footer">
+        <p class="footer__creator">Сайт создан Киселевой Валерией группа СТ-21</p>
+        <ul class="footer__information">
+            <li class="footer__documents"><a href="#">Правовая оговорка</a></li>
+            <li class="footer__documents"><a href="#">Пользовательское соглашение</a></li>
+            <li class="footer__documents"><a href="#">Политика конфиденциальности</a></li>
+        </ul>
     </footer>
+    <section class="form">
+        <form class="form__login" action="/" id="login">
+            <h5 class="form__head">Вход в личный кабинет</h5>
+            <input class="form__telephone" type="tel" name="phone" placeholder="Номер телефона" required>
+            <input class="form__name" type="password" name="password" placeholder="Пароль" required>
+            <button class="form__login">Войти</button>
+        </form>
+    </section>  
 </body>
+
 </html>
