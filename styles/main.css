@@ -1,0 +1,357 @@
+/* Стили для центральной части сайта */
+.main__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.main__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.main__button{
+    background-color: #02897A;
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 53px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    /* делаем красивую кнопку */
+    padding: 5px;
+    border-radius: 5px;
+}
+.motivation__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.motivation__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 22px;
+    line-height: 33px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;  
+}
+.management__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none; 
+}
+.management__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.support__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.support__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.collaboration__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.collaboration__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__head{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 34px;
+    line-height: 51px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__name{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__money{
+    background-color: white;
+    color: #02897A;
+    font-family: "Poppins";
+    font-size: 30px;
+    line-height: 100px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__desc{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+.products__button{
+    background-color: #02897A;
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 53px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    /* делаем красивую кнопку */
+    padding: 5px;
+    border-radius: 5px;
+}
+/* оформляем картинку в первой секции */
+.about{
+    display: flex;
+    gap: 10px;
+}
+.about__wrap-right{
+    width: 500px;
+    flex-shrink: 0;
+}
+/* оформляем первую секцию */
+.about{
+    background-color: white;
+     color: black;
+     padding: 10px;
+}
+/* оформляем ссылку на кнопку "Начать" в первой секции */ 
+.about__button{
+    display: block;
+    padding: 10px;
+    color: #02897A;
+    background-color: white;
+    text-decoration: none;
+    margin-top: auto;
+    margin-right: auto;
+}
+.about__wrap-left{
+    display: flex;
+    flex-direction: column;
+}  
+/* оформляем карточки */ 
+.motivation__card{
+    width: 300px;
+    padding: 15px;
+    background-color: white;
+   color: black;
+    box-shadow: 1px 2px 20px 5px white;
+}
+.specialists__name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.motivation__title{
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.motivation__card{
+    display: flex;
+    flex-direction: column;
+}
+.motivation__image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/* оформляем вторые карточки */
+/* Карточка Управление */
+.management{
+    display: flex;
+    gap: 10px;
+}
+.management__wrap-right{
+    width: 500px;
+    flex-shrink: 0;
+}
+.management{
+    background-color: white;
+     color: black;
+     padding: 10px;
+}
+.management__wrap-left{
+    display: flex;
+    flex-direction: column;
+}
+/* Карточка Служба поддержки */
+.support{
+    display: flex;
+    gap: 10px;
+}
+.support__wrap-left{
+    width: 500px;
+    flex-shrink: 0;
+}
+.support{
+    background-color: white;
+     color: black;
+     padding: 10px;
+} 
+.support__wrap-right{
+    display: flex;
+    flex-direction: column;
+}
+/* Карточка Всё в одном месте */
+.collaboration{
+    display: flex;
+    gap: 10px;
+}
+.collaboration__wrap-right{
+    width: 500px;
+    flex-shrink: 0;
+}
+.collaboration{
+    background-color: white;
+     color: black;
+     padding: 10px;
+}                  
+.collaboration__wrap-left{
+    display: flex;
+    flex-direction: column;
+}
+/* Карточка Цена */
+.products__card{
+    width: 350px;
+    padding: 15px;
+    background-color: white;
+   color: black;
+    box-shadow: 1px 2px 20px 5px #d7d7d7;
+}
+.products__name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.products__money{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.products__desc{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.products__button{
+    display: block;
+    padding: 10px;
+    background-color: #02897A;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.products__price{
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.products__card{
+    display: flex;
+    flex-direction: column;
+}
+.products__button{
+    margin-top: auto;
+}  
