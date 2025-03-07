@@ -1,0 +1,42 @@
+/* Файл для медиа-запросов*/
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px;
+        flex-wrap: wrap;
+    }        
+    .menu {
+        flex-wrap: wrap;
+    }
+    .main__title {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .motivation__title {
+        justify-content: center;
+        align-items: center;
+       padding: 20px 20px; 
+       flex-wrap: wrap;
+    }
+    .motivation__image{
+        width: 200px;
+        height: auto;
+    }
+    .motivation__card {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .management {
+        display: flex;
+        gap: 10px;
+        justify-content: normal;
+        display: flex; 
+        list-style-type: none;
+    }
+}
